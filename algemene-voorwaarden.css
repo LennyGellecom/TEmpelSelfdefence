@@ -5,19 +5,20 @@ body {
     background-position: center;
 }
 
-* {
+*{
   padding: 0;
   margin: 0;
 }
 
 
-ul {
+.menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
 }
+
 
 li {
     float: left;
@@ -26,16 +27,31 @@ li {
 li a {
     display: block;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
 }
+
 
 li a:hover {
     background-color: #111;
 }
 
 
-.active {
-    background-color: black;
+
+}
+
+#algemene-voorwaarden{
+  text-align: center;
+}
+
+h1{
+  font-size: 80px;
+}
+
+p1 {
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+  display: block;
 }
